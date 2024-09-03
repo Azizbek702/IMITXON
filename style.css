@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 350px;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.title button{
+background-color: #6ca1eba9;
+border: none;
+border-radius: 5px;
+width: 120px;
+height: 25px;
+color: blue;
+}
+.title{
+    display: flex;
+    gap: 10px;
+}
+.paragraph{
+    font-size: 14px;
+    color: gray;
+}
+.star{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.star i{
+    color: #EFCA44;
+}
+.chekbox{
+    width: 160px;
+}
+
+
+.titlee{
+    font-size: 14px;
+    color: #276ccc;
+ padding-top: 15px;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    background-color: #276ccc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.bttn{
+    width: 150px;
+    height: 30px;
+    background-color: #c9dbf5;
+    border: none;
+    border-radius: 5px;
+    color: #276ccc;
+}
+.big-contener{
+    display: flex;
+    gap: 50px;
+}
+.banner-text-wrapper{
+    margin-top: 20px;
+}
+
+
+.button{
+    margin-top: 25px;
+}
+.for-see img{ 
+width: 110px;
+height: 110px;
+border-radius: 10px;
+padding-left: 10px;
+}
+
+.for-see i{
+    font-size: 50px;
+    background-color: #b1cdf5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+  color: rgba(55, 55, 223, 0.726);
+}
+.for-see{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.down-nav{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    width: 100%;
+    background-color: #82b0f0;
+    height: 35px;
+    align-items: center;
+    margin-top: 40px;
+    padding-left: 50px;
+    font-weight: 700;
+    color: rgb(71, 70, 70);
+}
+.style-li{
+    color: black;
+}
